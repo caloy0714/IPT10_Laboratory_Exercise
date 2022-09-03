@@ -10,6 +10,6 @@ $body = '{
     "name": "public"
   }
 }';
-$request = new Request('POST', '{{url}}/api/rest/issues/[ISSUE_NUMBER]/notes', $headers, $body);
+$request = new Request('POST', 'https://ipt10-2022.mantishub.io/api/rest/issues/[ISSUE_NUMBER]/notes', $headers, $body);
 $res = $client->sendAsync($request)->wait();
 echo $res->getBody();
