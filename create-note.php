@@ -1,7 +1,7 @@
 <?php
 $client = new Client();
 $headers = [
-  'Authorization' => '{{NdQe03YgKb1pf9fMufhWVLtCBmMGloXs}}',
+  'Authorization' => 'NdQe03YgKb1pf9fMufhWVLtCBmMGloXs',
   'Content-Type' => 'application/json'
 ];
 $body = '{
